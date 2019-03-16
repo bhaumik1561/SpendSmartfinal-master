@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_dashboard"
+        android:enabled="true"
+        android:iconTint="@color/bottom_tabs"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/text_dashboard"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_friends"
+        android:enabled="true"
+        android:iconTint="@color/bottom_tabs"
+        android:icon="@drawable/ic_friends"
+        android:title="@string/text_friends"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_addexpenses"
+        android:enabled="true"
+        android:iconTint="@color/bottom_tabs"
+        android:icon="@drawable/ic_add_18dp"
+        android:title="@string/text_addexpenses"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_activity"
+        android:enabled="true"
+        android:iconTint="@color/bottom_tabs"
+        android:icon="@drawable/ic_notification"
+        android:title="@string/text_activity"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:enabled="true"
+        android:iconTint="@color/bottom_tabs"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/text_settings"
+        app:showAsAction="ifRoom" />
+</menu>
